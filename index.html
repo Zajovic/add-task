@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+    <div id="main">
+        <form>
+            <div id="task_lists">
+                <h2>Task List</h2><br>
+                <input type="text" name="new_text" placeholder="New Task" id="input1" autofocus><br><br>
+                <button onclick="addTask()" name="add_task" type="button" id="button1">ADD TASK</button>
+            </div>
+
+            <div id="tasks"><br>
+                <h3>Tasks</h3><br><br>
+
+                <input type="text" name="filter_task" placeholder="Filter Task" onkeyup="filterTasks()" id="input2"><br><br>
+                <div id="listBox">
+                    <ul id="list"></ul>
+                </div>
+                <button onclick="clearTasks()" name="add_task" type="button" id="button2">CLEAR TASKS</button><br>
+            </div>
+        </form>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+#main {
+    position: relative;
+    background-color: white;
+    border: 1px solid #dddd;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+    width: 500px;
+    min-height: 550px;
+    padding: 30px;
+}
+::placeholder {
+    color: #D0D0D0;
+}
+h2{
+    font-weight: 500;
+    color: gray;
+}
+h3{
+    font-weight: 500;
+    color: gray;
+}
+#task_lists {
+    width: 100%;
+    border-bottom: 1px solid #dddd;
+    margin: auto;
+    padding: 10px;
+}
+#tasks {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+input{
+	border: 0;
+    border-bottom: 1px solid #DBDBDB;
+    width: 100%;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    border: 1px solid #dddd;
+    border-radius: 3px;
+    background-color: #D0D0D0;
+    padding: 5px 10px;
+    font-size: 1.1em;
+}
+ul li {
+    cursor: pointer;
+}
+ul li:hover {
+    background: #dddd;
+}
+span {
+	float: right;
+	margin-right: 5px;
+    color: #FDA74E;
+}
+#listBox {
+    height: 96px;
+    overflow-y:auto;
+}
+#button1 {
+	width: 120px;
+	margin-top: 20px;
+	padding: 10px 6%;
+	background-color: #27A69B;
+	border: 1px solid #27A69B;
+	color: white;
+    border-radius:4px; 
+    cursor: pointer;
+}
+#button2 {
+	width: 140px;
+	margin-top: 20px;
+	padding: 10px 6%;
+	background-color: black;
+	border: 1px solid black;
+	border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
